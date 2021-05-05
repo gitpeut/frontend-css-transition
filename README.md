@@ -3,7 +3,7 @@
 ## Eindresultaat
 Programmeer de volgende transitie van hamburger naar kruisje wanneer de gebruiker met de muis over het menu beweegt:
 
-![Hamburger icoon animatie](./hamburger-icoon-animatie.gif)
+![Hamburger icoon animatie](assets/hamburger-icoon-animatie.gif)
 
 ## Randvoorwaarden
 * Het hamburger-menu bestaat uit één basis-element en twee pseudo-elementen
