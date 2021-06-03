@@ -30,18 +30,19 @@
     width: var(--menu-bar-width);
     height: var(--menu-bar-height);
     position: absolute;
+
+    transition: transform .5s ease-in .3s;
+
 }
 
 #menu::before {
     top: -20px;
     transform-origin: left top;
-    transition: transform .5s ease-in .3s;
 }
 
 #menu::after {
     top: 20px;
     transform-origin: left bottom;
-    transition: transform .5s ease-in .3s;
 }
 
 #eromheen:hover > div {
