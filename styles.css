@@ -33,29 +33,25 @@
 }
 
 #menu::before {
-    left: 0;
     top: -20px;
     transform-origin: left top;
     transition: transform .5s ease-in .3s;
 }
 
 #menu::after {
-    left: 0;
     top: 20px;
     transform-origin: left bottom;
     transition: transform .5s ease-in .3s;
 }
 
-#eromheen:hover > div{
+#eromheen:hover > div {
     background-color: transparent;
 }
 
 #eromheen:hover > div::after {
-    background-color: #D84282;
-    transform: rotate(-45deg) ;
+    transform: rotate(-45deg);
 }
 
-#eromheen:hover > div::before{
-    background-color: #D84282;
-    transform: rotate(45deg) ;
+#eromheen:hover > div::before {
+    transform: rotate(45deg);
 }
