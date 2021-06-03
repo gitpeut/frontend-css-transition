@@ -6,20 +6,21 @@
 #menu {
     background-color: #D84282;
     position: relative;
-    width: var(--menu-bar-width);
+    width:  var(--menu-bar-width) ;
     height: var(--menu-bar-height);
 
     transition: background-color .4s ease-in-out .6s;
 }
 
 
-#eromheen {
+#aroundmenu {
     position: relative;
     width: var(--menu-bar-width);
     height: var(--menu-bar-height);
     border: 0px none;
-    padding: 30px;
-
+    padding: 20px;
+    padding-left: 2px;
+    padding-right: 2px;
 }
 
 #menu::before,
@@ -45,14 +46,14 @@
     transform-origin: left bottom;
 }
 
-#eromheen:hover > div {
+#aroundmenu:hover > div {
     background-color: transparent;
 }
 
-#eromheen:hover > div::after {
-    transform: rotate(-45deg);
+#aroundmenu:hover > div::after {
+    transform: translate( 12px,0) rotate(-45deg);
 }
 
-#eromheen:hover > div::before {
-    transform: rotate(45deg);
+#aroundmenu:hover > div::before {
+    transform: translate( 12px ) rotate(45deg);
 }
